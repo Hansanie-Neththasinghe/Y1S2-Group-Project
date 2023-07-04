@@ -1,0 +1,104 @@
+
+/* styles for the body content of login page */
+
+div.container1  
+{
+	
+	overflow:auto;
+	background-image:url("../images/imagelogin.jpg" );
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+
+
+
+/* styles for login/Register section */
+fieldset
+{
+	overflow:auto;
+	border:2px solid black;
+	border-radius:5px;
+	border-color:white;
+	background: rgba(0,86,63,0.9);
+	opacity:0.9;
+    color: #E5EDf5;
+	margin: auto;
+	height: 800px;
+	width: 560px;
+	text-align:center;
+	margin-top:80px;
+	
+	
+}
+
+div.formDetails
+{
+	padding:20px;
+	text-align:left;
+	font-size:18px;
+}
+
+div.formDetailsMiddle
+{
+	
+	text-align:center;
+	
+}
+
+.textbuttons
+{
+	
+	width:88%;
+	background-color:transparent;
+	height:30px;
+	border-top-style:hidden;
+	border-left-style:hidden;
+	border-right-style:hidden;
+	color:white;
+	
+}
+
+
+.LoginButton
+{
+	
+	width:100px;
+	height:40px;
+	background: linear-gradient(135deg, #00008b, #9b59b6);
+	border-radius:10px;
+	border-color:white;
+	color:white;
+	
+	
+}
+
+.LoginButton:hover
+{
+	cursor: pointer;
+	background:#0827F5;
+}
+
+.submitButtons
+{
+	
+	width:180px;
+	height:50px;
+	background: linear-gradient(135deg, #00008b, #9b59b6);
+	border-radius:10px;
+	border-color:white;
+	color:white;
+
+	
+}
+
+.submitButtons:hover
+{
+	cursor: pointer;
+	background:#0827F5;
+}
+
+.formDetailsMiddle a:hover
+{
+	color:#0827F5;
+}

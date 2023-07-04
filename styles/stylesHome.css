@@ -1,0 +1,421 @@
+html 
+{
+    scroll-behavior: smooth;
+}
+body
+{
+	overflow:auto;
+}
+
+
+h1.myheader1
+{
+  font-size: 35px;
+}
+
+h2.myheader2
+{
+  font-size: 25px;
+}
+
+div.divheader
+{
+	width:100%;
+	height:500px;
+	padding-top:58px;
+	background-color:lightgrey;
+	
+	background-image: url(../images/yalanationalpark.jpg);  
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+
+	text-align:center;
+	color:#f4f0ec;
+	font-family: Times New Roman;
+	text-shadow:4px 4px 8px #000000;
+	font-weight:bold;
+}
+/* styles the search box*/
+div.divheader  input[type=text]
+{
+	
+	text-align:center;
+	font-size:18px;
+	float:center;
+	width:40%;
+	height:50px;
+	margin-top:60px;
+	background-color:white;
+	opacity:0.8;
+	border:4px solid while;
+	border-radius:4px;
+	box-shadow:6px;
+	color:black;
+}
+
+#logo
+{
+	float:left;
+	margin-right:10px;
+	display:inline-block;
+	
+}
+
+#myaccount
+{
+	float:right;
+	margin-top:5px;
+	margin-left:290px;
+	cursor:pointer;
+	
+}
+
+#celonSafari
+{
+	
+	background-color:black;
+	color:white;
+	margin:5px;
+	
+}
+
+div.logo /* styles for the logo */
+{
+	float:left;
+	display:inline-block;
+	color:white;
+	display:flex; 
+	font-size:18px;
+	content:left-side;
+	
+	
+}
+
+/* Style the top navigation bar */
+.topnavigation
+{
+	
+	overflow:hidden;
+	background-color:#333;
+	display:flex;         /* center the navigation bar links */
+	
+}
+
+
+/* Style the topnav links */
+.topnavigation a
+{
+	float:left;
+	display:block;
+	color:#f2f2f2;
+	text-align:center;
+	height:28px;
+	padding:14px 24px;
+	text-decoration:none;
+	margin-left:5px;
+}
+
+/* Change color on hover */
+.topnavigation a:hover
+{
+	background-color:#04AA6D;
+	color:white;
+}
+
+.divcontent1
+{
+	
+	text-align:center;
+	font-size:18px;
+	display:flex;  /* fit the space avaiable in the contanct */
+	Align-items:center;
+	justify-content:center;
+	
+	padding:10px 15px;
+	
+}
+
+
+
+/* style the as featured in part(sponsers part) */
+div.featured
+{
+	
+	width:95%;
+	height:200px;
+	padding-top:18px;
+	overflow:visible;
+	color:#d3d3d3;
+	
+	
+}
+
+
+
+.divcontent2
+{
+	
+	text-align:center;
+	
+}
+
+div.content3
+{
+	
+	background-color:#E6E6E3;
+	
+}
+
+div.packages
+{
+	border: 2px solid transparent;
+	padding:20px 40px;
+	
+	display:flex;
+	
+}
+
+div.boxstyle
+{
+	
+	border:2px solid transparent;
+	width:600px;
+	height:480px;
+	text-align:center;
+	border-radius:9px;
+	margin-left:35px;
+	margin-right:35px;
+	color:white;
+	font-size:25px;
+	font-family: Times New Roman;
+	font-weight:bold;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+	cursor:pointer;
+	
+	
+	
+}
+
+div.boxstyle:hover
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.package1
+{
+	
+	background-image:url("../images/sri-lankan-leopard-yala.jpg");
+	border-radius:5px;
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-size:cover;
+	height:250px;
+	width:100%;
+	
+}
+	
+div.package2
+{
+	
+	background-image:url("../images/7880163689002359679.jpg");   
+	border-radius:5px;
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-size:cover;
+	height:250px;
+	width:100%;
+	
+	
+	
+}
+
+
+
+div.package3
+{
+	
+	background-image:url("../images/photo-1589861394936-258a345b748e.jpg");   
+	border-radius:5px;
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-size:cover;
+	height:250px;
+	width:100%;
+	
+	
+}
+
+img.packagehotels
+{
+	float:left;
+	margin-left:30px;
+	border-radius:20px;
+}
+
+.hotelsDetails
+{
+	font-size:14px;
+	margin-top:10px;
+	color:black;
+	font-family:Arial;
+}
+
+
+.packageDetails
+{
+	
+	font-size:15px;
+	color:black;
+	font-family:Sans-serif;
+	
+}
+
+div.tourGuide
+{
+	background-color:#E6E6E3;
+	height:300px;
+	padding:25px 50px;
+	
+}
+
+.tourGuideimage
+{
+	float:center;
+	margin-top:30px;
+	margin-right:250px;
+	border-radius:30px;
+	cursor:pointer;
+	
+}
+img.tourGuideimage:hover
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.tourGuideContact
+{
+	width:200px;
+	height:300px;
+	border:border:2px solid black;
+	
+	margin-left:195px;
+	font-size:16px;
+}
+div.contenttourGuideContact
+{
+	width:100%;
+	height:350px;
+	display:flex;
+}
+
+
+/* style the footer */
+.divfooter
+{
+	
+	background-color:#333;
+	color:white;
+	height:550px;
+	padding:50px 150px;
+	font-family:Times New Roman, Times, serif;
+	font-size:15px;
+	
+}
+
+#footerimg
+{
+	padding-top:15px;
+	padding-right:4px;
+}
+
+
+div.divfooter2
+{
+	
+	background-color:#333;
+	color:white;
+	height:150px;
+	
+}
+
+div.footer3
+{
+	
+	border: 2px solid transparent;
+	
+	display:flex;
+	width:100%;
+	height:280px;
+	
+}
+
+div.footerDetails1
+{
+	border:2px solid transparent;
+	width:200px;
+	height:200px;
+	text-align:center;
+	border-radius:9px;
+	margin-right:90px;
+	margin-left:115px;
+	margin-top:30px;
+	margin-bottom:20px;
+	color:white;
+	text-align:left;
+}
+
+div.footerDetails2
+{
+	border:2px solid transparent;
+	width:200px;
+	height:200px;
+	text-align:center;
+	border-radius:9px;
+	margin-right:90px;
+	margin-left:20px;
+	margin-top:30px;
+	margin-bottom:20px;
+	text-align:left;
+	color:white;
+}
+
+div.footerDetails3
+{
+	border:2px solid transparent;
+	width:200px;
+	height:200px;
+	text-align:center;
+	border-radius:9px;
+	margin-right:90px;
+	margin-left:20px;
+	margin-top:30px;
+	margin-bottom:20px;
+	text-align:left;
+	color:white;
+}
+
+div.footerDetails4
+{
+	border:2px solid transparent;
+	width:200px;
+	height:200px;
+	text-align:center;
+	border-radius:9px;
+	margin-right:90px;
+	margin-left:20px;
+	margin-top:30px;
+	margin-bottom:20px;
+
+	color:white;
+}
+
+
+
+div.footer3 a:hover
+{
+	background-color:#04AA6D;
+	color:green;
+}

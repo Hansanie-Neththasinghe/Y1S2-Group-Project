@@ -1,0 +1,33 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Feedback</title>
+            <link rel="stylesheet" type="text/css" href="styles/FeedbackStyle.css"/>
+			<link rel="stylesheet" href="styles/styles1.css"/>
+            <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+           
+        </head>
+        <body>
+		
+		
+            <section></section>
+            <div class="container">
+            <form method="POST" action="php/feedbackStore.php">
+                <h1>Give Your Feedback</h1>
+                <div class="id">
+                    <input type="text" name= "fullName" placeholder="Full name" required>
+                    <i class="far fa-user"></i>
+                </div>
+                <div class="id">
+                    <input type="email" name= "fullEmail" placeholder="E mail address" required>
+                    <i class="far fa-envelope"></i>
+                </div>
+                <textarea cols="15" rows="5" name= "feedback" placeholder="Enter your opinions here.." required></textarea>
+                <button>Send</button>
+            </form>
+    
+    
+    
+    
+        </body>
+    </html>

@@ -1,0 +1,97 @@
+
+body
+{
+	overflow:auto;
+	background-color:#dcdcdc;
+	
+}
+
+div.middlecontent
+{
+	 
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+
+div.middlecontent background-image
+{
+	opacity:0.5;
+}
+
+div.createacc_Box
+{
+	background-color:rgba(119,221,119, 0.9);
+	width:60%;
+	height:800px;
+	border:2px solid transparent;
+	border-radius:10px;
+	margin-top:20px;
+	margin-bottom:100px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+	opacity:0.9;
+
+}
+
+div.formcontainer
+{
+	
+	padding:20px 10px 20px 50px;
+	font-size:20px;
+	
+}
+
+.textbuttons
+{
+	
+	width:50%;
+	height:30px;
+	border:1px;
+	border-radius:5px;
+	margin-left:70px;
+	
+	
+}
+
+.suignUpButtons
+{
+	
+	width:200px;
+	height:50px;
+	background: linear-gradient(135deg, #00008b, #9b59b6);
+	border-radius:10px;
+	border-color:white;
+	color:white;
+	font-size:18px;
+
+	
+}
+
+.suignUpButtons:hover
+{
+	cursor: pointer;
+	background:#0827F5;
+}
+
+.submitButtons
+{
+	
+	width:150px;
+	height:50px;
+	background: linear-gradient(135deg, #00008b, #9b59b6);
+	border-radius:10px;
+	border-color:white;
+	color:white;
+	font-size:18px;
+	float:right;
+	margin-right:220px;
+	
+}
+
+.submitButtons:hover
+{
+	cursor: pointer;
+	background:#0827F5;
+}

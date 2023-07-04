@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.container h2{
+    font-size: 45px;
+}
+form{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 69px;
+    background: pink;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(3, 3, 3);
+    opacity: 1;
+    
+}
+.container{
+    background-image: url("../images/cute-safari-animals-with-jungle-kids-wallpaper-mural-wm-ou000122-41487165.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    
+}
+
+.container2{
+    background-image: url("../images/images\ \(2\).jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    
+}
+
+/*
+.footer{
+	
+	width: 100%;  
+    text-align: center;
+    padding: 30px 0;
+	background-color: green;
+	background-image: url("../images/6.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}*/

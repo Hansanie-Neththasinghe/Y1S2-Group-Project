@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html><head>
+        <title>Contact Us</title>
+
+        <style>
+            #table1{
+                border: 0px solid black;
+                width: 100%;
+                background-color: rgba(237, 237, 237, 0.597);;
+                border-radius: 20px;
+                padding-left: 20px;
+            }
+
+            #table1 th{
+                border: 0px solid black;
+            }
+
+            #th1{
+                width: 60%;
+            }
+            
+            #th1 h1{
+                font-size: 40px;
+            }
+
+            #table2{
+                border: 0px solid black;
+                width: 100%;
+            }
+
+            #table2 th{
+                text-align: left;
+                height: 40px;
+                font-size: 17px;
+            }
+
+            #table2 td{
+                text-align: left;
+                width: 70%;
+            }
+
+            #table2 input,textarea,select{
+                width: 100%;
+            }
+
+            th, td{
+                border: 0px solid black;
+            }
+
+            div{
+                text-align: center;
+                width: 100%;
+            }
+
+            #submitbtn{
+                height: 50px;
+                width: 50%!important;
+                border-radius: 10px;
+                border: 5px solid rgba(197, 195, 81, 0.737);
+                background-color: rgba(255, 254, 190, 0.737);
+                font-size: 18px;
+				cursor:pointer;
+            }
+			
+
+           body{
+                padding-left: 120px;
+                padding-right: 120px;
+                background-image: url("images/Images/R.jpeg");
+                background-size: cover;
+                font-style: italic;
+                font-family: 'calibri';
+           }
+
+        </style>
+    </head>
+    <body>
+        
+        <div>
+        <p></p><table id="table1">
+        <tbody><tr>
+        <th id="th1">  
+           <h1>Contact Us</h1>
+
+            <table id="table2">
+                    <form id="contact_us_form" method="POST" action="php/Contact_us.php">
+                    <tbody><tr>
+                        <th>
+                            Salutation :
+                        </th>
+
+                        <td>
+                            <select name="salutation" required>
+                                <option disabled selected name="a0" value="Mr">--Select Salutation--</option>
+                                <option name="a1" value="Mr">Mr</option>
+                                <option name="a2" value="Mrs">Mrs</option>
+                                <option name="a3" value="Miss">Miss</option>
+                                <option name="a4" value="Ms">Ms</option>
+                                <option name="a5" value="Ms">Ms</option>
+                                <option name="a6" value="Dr">Dr</option>
+                            </select> 
+                        </td>
+                    </tr>
+                   
+
+                    <tr>
+                        <th>
+                            First Name :
+                        </th>
+
+                        <td>
+                            <input type="text" name="first_name" placeholder="--First Name--" required> 
+                        </td>
+                    </tr>
+                   
+
+                    <tr>
+                        <th>
+                            Last Name :
+                        </th>
+
+                        <td>
+                            <input type="text" name="last_name" placeholder="--Last Name--" required>  
+                        </td>
+                    </tr>
+                  
+
+                    <tr>
+                        <th>
+                            Phone# :
+                        </th>
+
+                        <td>
+                            <input type="text" name="phone" placeholder="07x xxx xxxx" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" required>
+                        </td>
+                    </tr>
+                    
+
+                    <tr>
+                        <th>
+                            Country :
+                        </th>
+
+                        <td>
+                            <input type="text" name="country" placeholder="--Country--" required>
+                        </td>
+                    </tr>
+                    
+
+                    <tr>
+                        <th>
+                            E-mail :
+                        </th>
+
+                        <td>
+                            <input type="text" name="e_mail" placeholder="--E-Mail Address--" required>
+                        </td>
+                    </tr>
+                    
+
+                    <tr>
+                        <th>
+                            Any Other Requirements :
+                        </th>
+
+                        <td>
+                            <textarea name="any_other_requirements" placeholder="Briefly Explain..... "></textarea>
+                        </td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td colspan="2">
+                            <br>
+                            <center>
+                            <input type="submit" name="btnSubmit" id="submitbtn"  value="Send  Request" >
+                            </center>
+                        </td>              
+                    </tr>  
+                                
+                    
+            </tbody></table>
+            <br><br>
+        
+        </form> 
+        
+        </th>
+        
+        <td>
+            <center>
+        <p>Ceylon Safari (Pvt) Ltd is a specialist Tour
+        Operator<br> based in Sri Lanka, Colombo. We
+        promote the <br>best wildlife tours in all
+        destinations in Sri Lanka.<br> In addition to Wildlife
+        Tours, we offer professional photographers <br>to keep sourvenirs of your beautiful journey.</p>
+        
+        <p><br>Ceylon Safari (Pvt) Ltd,<br>
+        295/1/2/1, 3rd Floor,<br>
+        Koskumbura Mawatha,<br>
+        2nd Mile Post,<br>
+        Panadura,<br>
+        Sri Lanka.<br><br>
+        
+        Telephone<br>
+        +94 11 5454542,
+        +94 11 7676765<br><br>
+        
+        Phone<br>
+        +94 779 998887<br><br></p>
+    </center>
+    </td>
+           
+        </tr>
+        </tbody></table>
+        
+       
+        
+        
+    </div>
+        
+</body></html>

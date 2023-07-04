@@ -1,0 +1,161 @@
+<html>
+<head>
+
+	<script type="text/javascript" src="js/submitRegister.js">
+	</script>
+	
+	<link rel="stylesheet" href="styles/stylesHome.css"/>
+	<link rel="stylesheet" href="styles/RegisterStylesnew.css"/>
+	<title>Register.html</title>
+
+<head>
+<body>
+
+	<div class="topnavigation">
+	
+	<div class="logo">
+			<img src="images/elep-01.png" id="logo" width='75' height='60'>
+			<p style="font-size:18px;text-shadow:2px 2px 4px #00ff7f;margin-right:150px;">
+			<u>CeylonSafari</u>
+			</p>
+			</div>
+	
+	<a href="LankanSafari_lk.html">Home</a>
+	<a href="Yala.html">Wild Tours</a>
+	<a href="Feedback.html">Feedbacks</a>
+	<a href="Gallery.html">Gallery</a>
+	<a href="About_us.html">About Us</a>
+	<a href="Contact_us.html">Contacts Us</a>
+	<a href="Login.html">Login</a>
+	
+	<img id="myaccount" src="images/profilepict.png" id="logo" width='50' height='50'>
+	
+	</div>
+	
+	<div class="middlecontent">
+	
+	<br><br>
+	
+
+	<div class="createacc_Box">
+	
+		<form method = "POST" action = "php/Register.php">
+		
+			<h1 style="font-size:44;text-align:center;">Create Account</h1>
+			
+			<div class="formcontainer">
+			
+			First Name :   &emsp;&emsp;&emsp;<input class="textbuttons" type="text" name="fName"  placeholder="--First Name--" required> <br><br> <!-- to add 4 and 2 and 1 spaces -->
+			
+			Last Name :   &emsp;&emsp;&emsp;<input class="textbuttons" type="text" name="lName"  placeholder="--Lirst Name--" required><br><br>
+			
+			Gender    :    &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			
+			<input type="radio" name ="Gender" value="male">Male &emsp;&emsp; 
+			<input type="radio" name = "Gender" value = "female">Female<br><br>
+			
+			E-mail   :  &emsp;&emsp;&emsp;&emsp; &nbsp; <input class="textbuttons" type="text" name="mail"  placeholder="--Your e-mail address--" required><br><br>
+			
+			address :   &emsp;&emsp;&emsp;&emsp;&nbsp;<input class="textbuttons" type="text" name="Add" placeholder="--Your postal address--" required><br><br>
+			
+			Mobile number  :  &emsp; <input class="textbuttons" type="text" name="m_no" placeholder="07x xxx xxxx" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" 
+			required><br><br>
+			
+			Password:   &emsp;&emsp;&emsp;&emsp;<input class="textbuttons" type="password" name="pass_word" placeholder="xxxxxxxxxx" 
+			maxlength="10" required><br><br>
+			
+			Confirm Password:  &nbsp;<input class="textbuttons" type="password" name="cpass_word" placeholder="xxxxxxxxxx" required><br><br><br>
+			
+			<input class="submitButtons" name="btnSubmit" type="submit" id="bttn1" value="Submit"><br><br><br><br>
+			
+			<center>Or Sign Up</center>
+			<hr>
+			
+			<br>
+			
+			<center>
+			<input class="suignUpButtons"  type="submit" value="Login with Facebook">
+			&emsp; &emsp; <!-- to add 4 spaces -->
+			<input class="suignUpButtons" type="submit" value="Login with Google">  
+			</center>
+			
+			</div>
+			
+			
+		
+		</form>
+	
+	</div>
+	
+	<br><br>
+	
+	</div>
+
+	
+	<div class="divfooter">
+	
+		<h3>About us<h3>
+		<p>CelonSafari is the largest online marketplace for srilankan safari tours. Easily compare offers from local 
+		tour operators and wild specialists. <a style="color:white;" href="About_us.html">More About Us</a></p>
+		<div class="divfooter2">
+	
+		<br> <br>
+		
+		<div class="footer3">
+		
+			<div class="footerDetails1">
+				
+					<center><h3>Our best Packages</h3></center>
+					<ul type="none">
+					<li><a style="color:white;" href="Yala.html">YALA Safrai tours.</a></li>
+					<li><a style="color:white;" href="Bird.html">Bird watching tours.</a></li>
+					<li><a style="color:white;" href="Ridigama1.html">Ridigama Safari tours.</a></li>
+					</ul>
+				
+			</div>
+			
+			<div class="footerDetails2">
+				
+					<center><h3>Best recommended Accommadations</h3></center>
+					<ul type="none">
+					<li>Hunas Falls hotel</li>
+					<li>Hotel Camellia </li>
+					<li>Laya Safari hotel Yala</li>
+					</ul>
+			</div>
+			
+			
+			<div class="footerDetails3">
+			
+				<<center><h3>Best Local Tour Operators</h3></center>
+				<ul type="none">
+				<li><a style="color:white;" href="Contact_us.html">Zayn Gunarathna</a></li>
+				<li><a style="color:white;" href="Contact_us.html">Kamala Prasath</a></li>
+				<li><a style="color:white;" href="Contact_us.html">Aruni Weerasinghe</a></li>
+				</ul>
+			
+			
+			</div>
+			
+			<div class="footerDetails4">
+			
+				<center><h3>General</h3></center>
+				<ul type="none">
+				<li><a style="color:white;" href="Yala.html">Wildtours</a></li>
+				<li><a style="color:white;" href="Gallery.html">View Gallery</a></li>
+				<li><a style="color:white;" href="About_us.html">About us</a></li>
+				<li><a style="color:white;" href="Contact_us.html">Contact us</a></li>
+				<li><a style="color:white;" href="Register.html">Register with us</a></li>
+				</ul>
+			
+			</div>
+			
+		</div>
+	
+	</div>
+	<br><br><br><br>
+
+	
+
+</body>
+</html>
